@@ -24,6 +24,9 @@ header {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  position: absolute;
+  left: 69%;
+  height: 100%;
 }
 
 .dark-mode-icon {

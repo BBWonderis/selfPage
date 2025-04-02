@@ -13,11 +13,7 @@ function App() {
     <div className="app">
       <header>
         <Navbar darkMode={darkMode} switchDarkMode={switchDarkMode} />
-        <button
-          className="dark-mode-button"
-          onClick={() => switchDarkMode()}
-          style={{ position: "absolute", left: "69%", height: "100%" }}
-        >
+        <button className="dark-mode-button" onClick={() => switchDarkMode()}>
           <img src={darkModeIcon} alt="dark_mode" className="dark-mode-icon" />
         </button>
       </header>
