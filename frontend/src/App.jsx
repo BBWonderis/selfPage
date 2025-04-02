@@ -16,7 +16,7 @@ function App() {
         <button
           className="dark-mode-button"
           onClick={() => switchDarkMode()}
-          style={{ position: "absolute", left: "70%", height: "100%" }}
+          style={{ position: "absolute", left: "69%", height: "100%" }}
         >
           <img src={darkModeIcon} alt="dark_mode" className="dark-mode-icon" />
         </button>
