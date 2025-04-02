@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <Navbar darkMode={darkMode} switchDarkMode={switchDarkMode} />
+        <Navbar darkMode={darkMode} />
         <button className="dark-mode-button" onClick={() => switchDarkMode()}>
           <img src={darkModeIcon} alt="dark_mode" className="dark-mode-icon" />
         </button>

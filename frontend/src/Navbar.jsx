@@ -1,6 +1,6 @@
 import "./style/navbar.css";
 
-function Navbar({ darkMode, switchDarkMode }) {
+function Navbar({ darkMode }) {
   return (
     <nav
       className="navbar"
