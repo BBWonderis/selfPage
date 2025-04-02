@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  min-width: 1210px;
+}
+button {
+  border: 0px;
+  background-color: transparent;
+}
+.app {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 4.4rem;
+  position: relative;
+  margin-top: 0.5rem;
+}
+.dark-mode-button {
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dark-mode-icon {
+  max-height: 100%;
+  max-width: 100%;
+}
