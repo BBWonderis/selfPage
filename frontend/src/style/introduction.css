@@ -1,0 +1,60 @@
+.introduction {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.introduction .objects {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.introduction .photo {
+  height: 10rem;
+
+  display: flex;
+  align-items: center;
+}
+.introduction .photo img {
+  border-radius: 50%;
+  max-height: 100%;
+}
+.introduction h2 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+}
+.introduction h1 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 85px;
+}
+.introduction p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+.introduction .link-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 31rem;
+  height: 4rem;
+}
+.introduction .link-buttons button {
+  height: 100%;
+  width: 14rem;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.introduction .link-buttons .github-button {
+  background-color: #202020;
+  color: white;
+}
+.introduction .link-buttons .linkedln-button {
+  border: 1px solid #a7a7a7;
+}

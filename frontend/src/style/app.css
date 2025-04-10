@@ -10,6 +10,7 @@ button {
 .app {
   width: 100%;
   height: 500px;
+  font-family: "Ovo", serif;
 }
 
 header {
@@ -18,6 +19,7 @@ header {
   height: 4.4rem;
   position: relative;
   margin-top: 0.5rem;
+  margin-bottom: 100px;
 }
 .dark-mode-button {
   height: 3.5rem;
@@ -34,7 +36,6 @@ header {
 .dark-mode-icon {
   max-height: 80%;
   max-width: 80%;
-  transition: transform 0.2s ease-in;
   transition: transform 0.3s ease-in-out;
 }
 
