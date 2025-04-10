@@ -11,7 +11,7 @@ function App() {
     setDarkMode((prevDark) => !prevDark);
   }
   return (
-    <div className="app">
+    <div className={`${darkMode ? "dark-mode" : "light-mode"} app`}>
       <header>
         <Navbar darkMode={darkMode} />
         <button className="dark-mode-button" onClick={() => switchDarkMode()}>
