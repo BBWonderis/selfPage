@@ -1,19 +1,8 @@
 import "./style/navbar.css";
-
+import "./style/dark-light-mode.css";
 function Navbar({ darkMode }) {
   return (
-    <nav
-      className="navbar"
-      style={
-        darkMode
-          ? { backgroundColor: "black" }
-          : {
-              backgroundColor: "rgb(255, 255, 255)",
-              boxShadow:
-                "rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,rgba(0, 0, 0, 0.3) 0px 8px 16px -8px"
-            }
-      }
-    >
+    <nav className={`${darkMode ? "dark-mode" : "light-mode"} navbar`}>
       <div className={`buttons ${darkMode ? "dark-mode" : "light-mode"}`}>
         <button className="home-button">
           <p>Home</p>

@@ -2,6 +2,7 @@ import "./style/app.css";
 import darkModeIcon from "./pictures/svg/dark_mode.svg";
 import Navbar from "./Navbar";
 import { useState } from "react";
+import "./style/dark-light-mode.css";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
