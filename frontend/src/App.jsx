@@ -35,8 +35,23 @@ function App() {
             to grow as a developer.
           </p>
           <div className="link-buttons">
-            <button className="github-button">my github →</button>
-            <button className="linkedln-button">my linkedln →</button>
+            <button
+              className="github-button"
+              onClick={() =>
+                (window.location.href = "https://github.com/BBWonderis")
+              }
+            >
+              my github →
+            </button>
+            <button
+              className="linkedln-button"
+              onClick={() =>
+                (window.location.href =
+                  "www.linkedin.com/in/lukáš-martiška-ba2390312")
+              }
+            >
+              my linkedln →
+            </button>
           </div>
         </div>
       </section>

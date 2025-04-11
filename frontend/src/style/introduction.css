@@ -50,7 +50,13 @@
   border-radius: 50px;
   font-size: 18px;
   font-weight: 400;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
 }
+.introduction .link-buttons button:hover {
+  transform: scale(1.1);
+}
+
 .introduction .link-buttons .github-button {
   background-color: #202020;
   color: white;
