@@ -1,0 +1,37 @@
+.about-me {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-me h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.about-me h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.about-me .objects {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.about-me .objects .text {
+  width: 60%;
+}
+.about-me .objects .personal-photo {
+  width: 40%;
+  border-radius: 10%;
+  overflow: hidden;
+}
+.about-me .personal-photo img {
+  width: 100%;
+  height: 100%;
+}

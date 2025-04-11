@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import { useState } from "react";
 import "./style/dark-light-mode.css";
 import "./style/introduction.css";
+import "./style/about-me.css";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -52,6 +53,36 @@ function App() {
             >
               my linkedln →
             </button>
+          </div>
+        </div>
+      </section>
+      <section className="about-me">
+        <h2>Introduction</h2>
+        <h1>About me</h1>
+        <div className="objects">
+          <div className="personal-photo">
+            <img src="istockphoto-1335941248-612x612.jpg" alt="" />
+          </div>
+          <div className="text">
+            <p>
+              I am a computer science student at the Faculty of Informatics,
+              Masaryk University in Brno, currently looking for my first
+              internship or junior position. I’m passionate about frontend
+              development, especially working with React, and I enjoy building
+              clean, responsive user interfaces. While frontend is my main
+              focus, I’m also curious to explore backend development and expand
+              my skills full-stack. I'm a goal-oriented person who loves
+              learning new things, solving logical problems, and constantly
+              improving. Programming excites me because it’s both creative and
+              analytical. Although I don’t have professional experience yet,
+              I’ve worked on personal projects and I’m always experimenting to
+              grow my skills. One of my challenges is that I sometimes
+              underestimate my knowledge — but I’m working on gaining confidence
+              by building more, collaborating, and learning from others.
+            </p>
+            <div className="text-buttons"></div>
+            <h3>Tools i use</h3>
+            <div className="tools-list"></div>
           </div>
         </div>
       </section>
